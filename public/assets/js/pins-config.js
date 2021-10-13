@@ -1,14 +1,14 @@
-﻿
-var pins_config = {
+﻿var pins_config = {
   pins: [
     {
-      shape: "square", //either "circle" or "square"
-      hover: "<b><u>Agents</u></b><br>200,000<br><b><u>Ticket Sold</u></b><br>5,000,000<br>", 
+      shape: "circle", //either "circle" or "square"
+      hover:
+        "<b><u>Agents</u></b><br>10,000<br><b><u>Ticket Sold</u></b><br>3,000,000<br>", //info of the popup
       pos_X: 238, //check the X, Y coordinates guide in the documentation
       pos_Y: 447,
-      size: 18, //size of the pin
+      size: 20, //size of the pin
       outline: "#660080", //outline color of the pin
-      upColor: "#e60000", //color of the pin when map load
+      upColor: "rgb(49,69,253)", //color of the pin when map load
       overColor: "#ffd480", //color of the pin when mouse hover
       url: "#mymodal", //link to any webpage
       target: "modal", // use "new_window", "same_window", "modal", or "none"
@@ -16,12 +16,13 @@ var pins_config = {
     },
     {
       shape: "circle", //either "circle" or "square"
-      hover: "<b><u>Agents</u></b><br>650,000<br><b><u>Ticket Sold</u></b><br>3,000,000<br>",
+      hover:
+        "<b><u>Agents</u></b><br>55,000<br><b><u>Ticket Sold</u></b><br>2,000,000<br>", //info of the popup
       pos_X: 238, //check the X, Y coordinates guide in the documentation
       pos_Y: 520,
       size: 18, //size of the pin
       outline: "#660080", //outline color of the pin
-      upColor: "#e60000", //color of the pin when map load
+      upColor: "rgb(49,69,253)", //color of the pin when map load
       overColor: "#ffd480", //color of the pin when mouse hover
       url: "#mymodal", //link to any webpage
       target: "modal", // use "new_window", "same_window", "modal", or "none"
@@ -30,12 +31,12 @@ var pins_config = {
     {
       shape: "circle",
       hover:
-        "<b><u>Agents</u></b><br><span style='color: #bcbcbc;'>300,000</span><br><b><u>Ticket Sold</u></b><br>2,000,000<br>",
+        "<b><u>Agents</u></b><br>45,000<br><b><u>Ticket Sold</u></b><br>1,500,000<br>", //info of the popup
       pos_X: 333,
       pos_Y: 213,
       size: 20,
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "#mymodal",
       target: "modal",
@@ -44,12 +45,12 @@ var pins_config = {
     {
       shape: "circle",
       hover:
-        "<b><u>Agents</u></b><br><span style='color: #999;'>150,000</span><br><b><u>Ticket Sold</u></b><br>2,500,000<br>",
+        "<b><u>Agents</u></b><br><span style='color: #999;'>370,000</span><br><b><u>Ticket Sold</u></b><br>3,700,000<br>",
       pos_X: 241,
       pos_Y: 270,
       size: 16,
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "#mymodal",
       target: "modal",
@@ -58,12 +59,12 @@ var pins_config = {
     {
       shape: "circle",
       hover:
-        "<b><u>Agents</u></b><br><span style='color: #999;'>500,000</span><br><b><u>Ticket Sold</u></b><br>3,500,000<br>",
+        "<b><u>Agents</u></b><br><span style='color: #999;'>750,000</span><br><b><u>Ticket Sold</u></b><br>8,900,000<br>",
       pos_X: 70,
       pos_Y: 460,
       size: 20, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "#mymodal",
       target: "modal",
@@ -76,7 +77,7 @@ var pins_config = {
       pos_Y: 200,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -89,7 +90,7 @@ var pins_config = {
       pos_Y: 250,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -102,7 +103,7 @@ var pins_config = {
       pos_Y: 300,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -115,7 +116,7 @@ var pins_config = {
       pos_Y: 350,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -128,7 +129,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -141,7 +142,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -154,7 +155,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -167,7 +168,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -180,7 +181,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -193,7 +194,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",
@@ -206,7 +207,7 @@ var pins_config = {
       pos_Y: 400,
       size: 0, //change the size to display this pin
       outline: "#660000",
-      upColor: "#e60000",
+      upColor: "rgb(49,69,253)",
       overColor: "#ffd480",
       url: "https://www.html5interactivemaps.com/",
       target: "same_window",

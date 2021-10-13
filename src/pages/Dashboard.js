@@ -68,35 +68,25 @@ function Dashboard() {
 
             {/* Cards */}
             <div className='grid grid-cols-12 gap-6'>
-              {/* Line chart (Acme Plus) */}
               <DashboardCard01 />
-              {/* Line chart (Acme Advanced) */}
               <DashboardCard02 />
-              {/* Line chart (Acme Professional) */}
               <DashboardCard03 />
-              {/* Bar chart (Direct vs Indirect) */}
               <DashboardCard14 />
               <DashboardCard15 />
               <DashboardCard16 />
-              {/* <Map /> */}
+            </div>
+            <div className='flex overflow-hidden flex-col relative mt-10 mb-10'>
+              <Map />
+            </div>
+            <div className='grid grid-cols-12 gap-6'>
               <DashboardCard04 />
-              {/* Line chart (Real Time Value) */}
               <DashboardCard05 />
-              {/* Doughnut chart (Top Countries) */}
               <DashboardCard06 />
-              {/* Table (Top Channels) */}
               <DashboardCard07 />
-              {/* Line chart (Sales Over Time) */}
               <DashboardCard08 />
-              {/* Stacked bar chart (Sales VS Refunds) */}
               <DashboardCard09 />
-              {/* Card (Customers) */}
               <DashboardCard10 />
-              {/* Card (Reasons for Refunds) */}
               <DashboardCard11 />
-              {/* Card (Recent Activity) */}
-              {/* Card (Income/Expenses) */}
-              {/* <DashboardCard13 /> */}
             </div>
           </div>
         </main>

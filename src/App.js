@@ -5,6 +5,8 @@ import {
   useLocation
 } from 'react-router-dom';
 
+import Map from './partials/dashboard/Map';
+
 import './css/style.scss';
 
 import { focusHandling } from 'cruip-js-toolkit';
@@ -30,6 +32,7 @@ function App() {
         <Route exact path="/">
           <Dashboard />
         </Route>
+        <Route exact path='/map' component={Map} />
       </Switch>
     </>
   );
