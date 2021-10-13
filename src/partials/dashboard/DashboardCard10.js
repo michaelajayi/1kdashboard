@@ -1,53 +1,53 @@
 import React from 'react';
 
-import Image01 from '../../images/user-36-05.jpg';
+import Image01 from '../../images/user-36-11.jpg';
 import Image02 from '../../images/user-36-06.jpg';
-import Image03 from '../../images/user-36-07.jpg';
-import Image04 from '../../images/user-36-08.jpg';
-import Image05 from '../../images/user-36-09.jpg';
+import Image03 from '../../images/user-36-12.jpg';
+import Image04 from '../../images/user-36-13.jpg';
+import Image05 from '../../images/user-36-10.jpg';
 
 function DashboardCard10() {
 
   const customers = [
     {
-      id: '0',
+      id: "0",
       image: Image01,
-      name: 'Alex Shatov',
-      email: 'alexshatov@gmail.com',
+      name: "Adamu Williams",
+      phone: "08062946833",
       // location: '🇺🇸',
-      spent: '₦32,890.66',
+      spent: "₦32,890.66",
     },
     {
-      id: '1',
+      id: "1",
       image: Image02,
-    name: 'Philip Harbach',
-      email: 'philip.h@gmail.com',
+      name: "Philip Onyekachi",
+      phone: "07082015041",
       // location: '🇩🇪',
-      spent: '₦28,767.04',
+      spent: "₦28,767.04",
     },
     {
-      id: '2',
+      id: "2",
       image: Image03,
-      name: 'Mirko Fisuk',
-      email: 'mirkofisuk@gmail.com',
+      name: "Aina Adetutu",
+      phone: "08062946833",
       // location: '🇫🇷',
-      spent: '₦25,996.00',
+      spent: "₦25,996.00",
     },
     {
-      id: '3',
+      id: "3",
       image: Image04,
-      name: 'Olga Semklo',
-      email: 'olga.s@cool.design',
+      name: "Rebecca Osuji",
+      phone: "08034468921",
       // location: '🇮🇹',
-      spent: '₦19,220.66',
+      spent: "₦19,220.66",
     },
     {
-      id: '4',
+      id: "4",
       image: Image05,
-      name: 'Burak Long',
-      email: 'longburak@gmail.com',
+      name: "Chioma Ebubedike",
+      phone: "07098824493 ",
       // location: '🇬🇧',
-      spent: '₦18,890.66',
+      spent: "₦18,890.66",
     },
   ];
 
@@ -68,7 +68,7 @@ function DashboardCard10() {
                   <div className="font-semibold text-left">Name</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-left">Email</div>
+                  <div className="font-semibold text-left">Phone</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
                   <div className="font-semibold text-left">Spent</div>
@@ -93,7 +93,7 @@ function DashboardCard10() {
                         </div>
                       </td>
                       <td className="p-2 whitespace-nowrap">
-                        <div className="text-left">{customer.email}</div>
+                        <div className="text-left">{customer.phone}</div>
                       </td>
                       <td className="p-2 whitespace-nowrap">
                         <div className="text-left font-medium text-green-500">{customer.spent}</div>

@@ -78,6 +78,7 @@ function Dashboard() {
               <DashboardCard14 />
               <DashboardCard15 />
               <DashboardCard16 />
+              {/* <Map /> */}
               <DashboardCard04 />
               {/* Line chart (Real Time Value) */}
               <DashboardCard05 />
@@ -97,7 +98,6 @@ function Dashboard() {
               {/* Card (Income/Expenses) */}
               {/* <DashboardCard13 /> */}
             </div>
-            <Map />
           </div>
         </main>
         <Banner />

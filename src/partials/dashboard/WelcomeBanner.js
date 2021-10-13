@@ -79,7 +79,7 @@ function WelcomeBanner() {
         <h1 className='text-2xl md:text-3xl text-gray-800 font-bold mb-1'>
           { time.current < 12 ? 'Good morning' : 'Good afternoon' }, Sijibomi Ogundele (MD) 👋
         </h1>
-        <p>Here is what’s happening with the Lottery System today:</p>
+        <p>Here is what’s happening with Homewin 1kBillionaire today:</p>
       </div>
     </div>
   );

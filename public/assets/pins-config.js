@@ -2,9 +2,8 @@
 var pins_config = {
   pins: [
     {
-      shape: "circle", //either "circle" or "square"
-      hover:
-        "<b><u>Agents</u></b><br>200,000<br><b><u>Ticket Sold</u></b><br>5,000,000<br>", //info of the popup
+      shape: "square", //either "circle" or "square"
+      hover: "<b><u>Agents</u></b><br>200,000<br><b><u>Ticket Sold</u></b><br>5,000,000<br>", 
       pos_X: 238, //check the X, Y coordinates guide in the documentation
       pos_Y: 447,
       size: 18, //size of the pin
